@@ -1,6 +1,6 @@
 /*
     Code by: Tebin Raouf
-    Function Description: This function takes a string and changes each letter to the next letter in the alphabet.
+    Function Description: This function takes a string and changes each letter to the next letter in the alphabet. If there is a vowel in the string. It changes it to upper case letter.
  */
 func letterChanges(_ str: String) -> String {
     let az = (97...122).map { Character(UnicodeScalar($0)) }
